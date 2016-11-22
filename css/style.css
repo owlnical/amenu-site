@@ -2,3 +2,14 @@ html {
 	background-color: #F0F8FF;
 	font-family: "open sans",sans-serif;
 }
+
+body {
+	margin: 0;
+	max-width: 650px;
+	margin: auto;
+	padding: 15px;
+	border: 1px solid #a8bfd4;
+	border-top: none;
+	background-color: #FFF;
+	overflow-x: hidden;
+}
