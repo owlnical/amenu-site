@@ -42,3 +42,10 @@ body {
 	text-decoration: none;
 	color: #551a8b;
 }
+
+h2 {
+	font-size: 32px;
+	border-top: 1px solid #a8bfd4;
+	padding-top: 15px;
+	margin: 0;
+}
