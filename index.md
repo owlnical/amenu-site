@@ -115,7 +115,7 @@ Example: The users types in the search string `fi` and there are two results: `f
 		filezilla
 	</div>
 	<div id="result2" class="normal">
-		test-executable-B
+		firefox
 	</div>
 </div>
 ```
