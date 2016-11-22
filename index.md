@@ -1,6 +1,13 @@
 ---
 title: amenu ![](img/amenu.svg)
-...
+keywords:
+	- amenu
+	- demnu
+	- alternative
+	- windows
+	- application
+	- launcher
+---
 
 About
 -----
