@@ -13,3 +13,16 @@ body {
 	background-color: #FFF;
 	overflow-x: hidden;
 }
+
+#header {
+	font-size: 64px;
+	text-align: center;
+}
+
+#header h1 {
+	margin: 5px;
+}
+
+#header h1 img {
+	width: 128px;
+}
