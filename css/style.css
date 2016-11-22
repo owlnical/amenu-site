@@ -87,3 +87,11 @@ p code, li code {
 li {
 	line-height: 1.7;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
