@@ -1,0 +1,3 @@
+---
+title: amenu ![](img/amenu.svg)
+...
