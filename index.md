@@ -67,6 +67,67 @@ body,div {
 
 We have now created a new child theme, default-green, which uses the default theme as base. amenu should now look something like this:
 
-![Theme default-red](img/theme/default-green.png)
+![Theme default-green](img/theme/default-green.png)
  
 If you want another color than green you can use this [color picker](https://ddg.gg/?q=color+picker). Simply choose the color you want and copy the value from the bottom text box into gui.css.
+
+### Create a theme from scratch
+
+Note that making a theme from scratch requires some experience with HTML and CSS. 
+
+The amenu themes are built using three files placed in their own subfolder in `%appdata%\amenu\theme`:
+
+ - `gui.ini` - size and position of the gui window
+ - `gui.html` - elements to be pupulated by amenu
+ - `gui.css`  - styling for gui.html
+
+The html file requires two IDs.
+
+ - search - inner html will be set to the user search string
+ - results - inner html will be set to the results matching the search string
+
+Excerpt from the default theme gui.html:
+
+```html
+<div id="search">
+</div>
+<div id="results">
+</div>
+```
+
+When results are generated the will be placed inside a new div with a numbered ID `result<number>`. if the result is selected byt the user it will have the class `selected` otherwise it will have the class `normal`.
+
+Example: The users types in the search string `fi` and there are two results: `filezilla` and `firefox`. amenu would then change the html above to this:
+
+```html
+<div id="search">
+	fi
+</div>
+<div id="results">
+	<div id="result1" class="selected">
+		filezilla
+	</div>
+	<div id="result2" class="normal">
+		test-executable-B
+	</div>
+</div>
+```
+
+A complete html file should look something like this and can then by styled accordingly using gui.css:
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="gui.css">
+	</head>
+	<body>
+		<div id="search">
+		</div>
+		<div id="results">
+		</div>
+	</body>
+</html>
+```
+
+For further details have a look at the [default theme](https://github.com/owlnical/amenu/tree/master/theme/default) which is heavily commented.
