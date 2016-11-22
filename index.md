@@ -47,7 +47,7 @@ You can switch theme using the tray menu or by editing misc.ini.
 In the following example we will change the color of the default theme to green by creating a new child theme.
 
  1. Start by opening the theme directory (tray menu > theme > directory...)
- 2. Make a copy of the folder default-orange, name it default-green
+ 2. Make a copy of the existing child theme folder `default-orange`, name it `default-green`
  3. Using notepad open the file default-green/gui.css
  4. Change the two color fields from `#fb8c00` (orange) to `#18e072` (green). Your file should now look something like this:
 
@@ -65,7 +65,7 @@ body,div {
  5. Save the file and restart amenu (tray menu > restart)
  6. Choose your new theme in the theme sub menu
 
-amenu should now look something like this:
+We have now created a new child theme, default-green, which uses the default theme as base. amenu should now look something like this:
 
 ![Theme default-red](img/theme/default-green.png)
  
