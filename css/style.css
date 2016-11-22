@@ -33,11 +33,12 @@ body {
 	min-height: 30px;
 	font-size: 16px;
 	text-align: center;
+	padding: 0;
 }
 
 #TOC ul li {
 	display: inline;
-	margin-right: 15px;
+	margin: 0 7px;
 }
 
 #TOC ul li a{
