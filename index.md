@@ -131,3 +131,8 @@ A complete html file should look something like this and can then by styled acco
 ```
 
 For further details have a look at the [default theme](https://github.com/owlnical/amenu/tree/master/theme/default) which is heavily commented.
+
+Source
+------
+
+The amenu source code is available on [github](https://github.com/owlnical/amenu).
