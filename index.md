@@ -7,8 +7,6 @@ About
 
 amenu is a simple and customizable application launcher very much inspired by the excellent [dmenu](http://tools.suckless.org/dmenu/).
 
-![Theme default](img/theme/default.png)
-
 Download
 --------
 
@@ -31,14 +29,16 @@ There are three separate files for settings available via the tray menu:
  - `hotkeys.ini` - key combinations to show and interact with the GUI.
  - `misc.ini`  - miscellaneous settings.
 
-Theme
------
+Themes
+------
 
-There are two variations of the default theme included with amenu.
+There are three themes included with amenu.
 
-![Theme default-orange](img/theme/default-orange.png)
+![default](img/theme/default.png)
 
-![Theme default-red](img/theme/default-red.png)
+![default-orange](img/theme/default-orange.png)
+
+![default-red](img/theme/default-red.png)
 
 You can switch theme using the tray menu or by editing misc.ini.
 
