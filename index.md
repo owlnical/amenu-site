@@ -2,12 +2,12 @@
 title: amenu ![](img/amenu.svg)
 ...
 
-![Theme default-orange](img/theme/default.png)
-
 About
 -----
 
 amenu is a simple and customizable application launcher very much inspired by the excellent [dmenu](http://tools.suckless.org/dmenu/).
+
+![Theme default](img/theme/default.png)
 
 Download
 --------
