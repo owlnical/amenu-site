@@ -73,7 +73,7 @@ If you want another color than green you can use this [color picker](https://ddg
 
 ### Create a theme from scratch
 
-Note that making a theme from scratch requires some experience with HTML and CSS. 
+*Note that making a theme from scratch requires some experience with HTML and CSS.*
 
 The amenu themes are built using three files placed in their own subfolder in `%appdata%\amenu\theme`:
 
